@@ -1,4 +1,4 @@
-What is the use of the keyof keyword in TypeScript? Provide an example.
+1.What is the use of the keyof keyword in TypeScript? Provide an example.
 <br><br>
 keyof is a powerful utility that gives you a union of all keys in a type.
 type Person = {
@@ -17,10 +17,12 @@ This makes your code dynamic and type-safe when accessing properties.
 2.How does TypeScript help in improving code quality and project maintainability?
 Early bug detection during development
 
-Better IDE support (autocomplete, hints)
+✅ Early Bug Detection: Compile-time checks reduce runtime errors.
 
-Easy refactoring with confidence
+💡 Enhanced IDE Support: Autocompletion, hover info, and real-time suggestions.
 
-Built-in documentation through types
+🔄 Safe Refactoring: Rename and update variables/functions confidently.
 
-Improved team collaboration on large projects
+📚 Self-Documenting Code: Types explain the code, reducing the need for external docs.
+
+🤝 Better Team Collaboration: Clearly defined contracts help developers work efficiently on large-scale
